@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GameApp_v2</string>
+    <string name="textview">TextView</string>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/show_app_1"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:onClick="onClick"
+        android:text="播放视频" />
+
+    <ListView
+        android:id="@+id/comic_ListView"
+        android:layout_width="wrap_content"
+        android:layout_height="408dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:onClick="onClick1"
+        android:text="更多信息" />
+
+
+    <!--
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="wrap_content"
+            android:layout_height="202dp"
+            android:layout_above="@+id/startUri"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="110dp" />
+
+        <Button
+            android:id="@+id/startCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="22dp"
+            android:layout_marginStart="24dp"
+            android:text="@string/startCard"
+            android:textColor="#00f" />
+
+        <Button
+            android:id="@+id/startUri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/startCard"
+            android:layout_marginEnd="21dp"
+            android:text="@string/startUri"
+            android:textColor="#f00" />
+
+        <TextView
+            android:id="@+id/fileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/startCard"
+            android:layout_centerHorizontal="true"
+            android:text="Resoure Path"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="#000" />
+    -->
+
+
+
+<!--
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:onClick="onClick"
+        android:text="开始音乐" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="64dp"
+        android:onClick="onClick"
+        android:text="暂停" />
+-->
+</RelativeLayout>

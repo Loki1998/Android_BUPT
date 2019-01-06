@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="110dp"
+        android:layout_height="96dp"
+        app:srcCompat="@mipmap/game_app_2"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="310dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="51dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="58dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="216dp"
+        android:text="乔巴是草帽海贼团的船医，吃了人人果实的驯鹿，可用蓝波球进行八段身体变形。他是草帽海贼团的第五位伙伴，职位是船医。原为磁鼓岛库蕾哈医生最宠爱的驯鹿兼医疗助手。乔巴的恩人是“庸医”希鲁鲁克，他身为野生驯鹿时本来没有名字，“乔巴”也是由希鲁鲁克给他命名的，意思是他有一对连树木都可以轻松砍倒的角。"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="乔巴是草帽海贼团的船医，吃了人人果实的驯鹿，可用蓝波球进行八段身体变形。他是草帽海贼团的第五位伙伴，职位是船医。原为磁鼓岛库蕾哈医生最宠爱的驯鹿兼医疗助手。乔巴的恩人是“庸医”希鲁鲁克，他身为野生驯鹿时本来没有名字，“乔巴”也是由希鲁鲁克给他命名的，意思是他有一对连树木都可以轻松砍倒的角。" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="140dp"
+        android:text="托尼托尼·乔巴"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        tools:layout_editor_absoluteY="100dp"
+        tools:text="托尼托尼·乔巴" />
+
+    <Button
+        android:id="@+id/back_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:onClick="onClick"
+        android:text="返回"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        tools:layout_editor_absoluteX="280dp" />
+</android.support.constraint.ConstraintLayout>
